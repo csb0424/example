@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+*{margin: 0; padding: 0;}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #222;
+}
+
+.치매환자::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+section{
+    width: 100%; height: 100vh;
+    /* 100vh--> 화면의 높이와 동일 */
+}
+section .scroll{
+    width: 4739px;
+   
+}
+section .scroll div{
+    float: left;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 64px;
+}
+section .scroll div:nth-child(2){}
+
+
+section .scroll div span{}
+
+
+
+
+@keyframes animate1{
+0%{}
+100%
+
+
+
+}
